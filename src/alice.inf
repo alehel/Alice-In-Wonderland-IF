@@ -1,0 +1,70 @@
+! ==========================================================================
+!   ALICE'S ADVENTURES IN WONDERLAND
+!   An interactive fiction after the book by Lewis Carroll (1865)
+!
+!   The original novel is in the public domain. This adaptation follows
+!   the story faithfully, chapter by chapter, and its puzzles are
+!   expansions of the book's own logic rather than alterations of it.
+! ==========================================================================
+
+Switches xv8s;
+
+Constant Story "ALICE'S ADVENTURES IN WONDERLAND";
+Constant Headline
+    "^An interactive fiction after the book by Lewis Carroll.^\
+      The novel (1865) is in the public domain; so is this game.^\
+      Type HELP for guidance, THINK for Alice's own advice.^^";
+
+Release 1;
+Serial "260703";
+
+Constant MAX_SCORE   = 100;
+Constant NUMBER_TASKS = 31;
+Constant TASKS_PROVIDED;
+Constant AMUSING_PROVIDED;
+Constant DEATH_MENTION_UNDO;
+
+! Task score values; see PrintTaskName in core.h for what each one is.
+Array task_scores ->
+    2   ! 0  going down the rabbit-hole
+    2   ! 1  putting the marmalade jar into a cupboard as you fell
+    2   ! 2  discovering the little door behind the curtain
+    2   ! 3  drinking from the DRINK ME bottle
+    2   ! 4  eating the EAT ME cake
+    2   ! 5  taking the golden key while you could reach it
+    3   ! 6  escaping the fan before you went out like a candle
+    3   ! 7  reaching the shore in the Mouse's company
+    3   ! 8  providing comfits as prizes, one apiece all round
+    2   ! 9  accepting an elegant thimble
+    2   ! 10 fetching the Rabbit's fan and gloves
+    4   ! 11 sending Bill up the chimney like a sky-rocket
+    2   ! 12 threatening the mob with Dinah
+    3   ! 13 shrinking out of the Rabbit's house
+    5   ! 14 tiring out an enormous puppy
+    5   ! 15 keeping your temper with the Caterpillar
+    3   ! 16 bringing yourself back to your usual height
+    2   ! 17 getting into the Duchess's house without knocking
+    5   ! 18 nursing the baby in the only workable manner
+    3   ! 19 taking tea at the maddest of tea-parties
+    3   ! 20 hearing the story of the treacle-well
+    7   ! 21 getting into the beautiful garden at last
+    3   ! 22 saying NONSENSE to the Queen of Hearts
+    5   ! 23 hiding the gardeners in the flowerpot
+    6   ! 24 playing the first fair croquet stroke on that ground
+    3   ! 25 recalling whose cat it is
+    4   ! 26 knowing what the eleventh day was
+    2   ! 27 joining the Lobster Quadrille
+    2   ! 28 relieving Bill of a squeaking pencil
+    3   ! 29 putting the Lizard in right way up
+    5;  ! 30 telling them what they are, after all
+
+Include "Parser";
+Include "VerbLib";
+
+Include "core.h";
+Include "world1.h";
+Include "world2.h";
+Include "world3.h";
+
+Include "Grammar";
+Include "verbs.h";

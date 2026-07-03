@@ -1,0 +1,157 @@
+x sister
+x book
+x daisies
+follow rabbit
+z
+take jar
+put jar in cupboard
+z
+follow rabbit
+search curtain
+take key
+unlock little door with key
+open little door
+z
+z
+z
+drink bottle
+z
+take cake
+eat cake
+unlock little door with key
+open little door
+cry
+z
+z
+z
+take fan
+z
+drop fan
+z
+ask mouse about way
+follow mouse
+listen
+talk to dodo
+run
+run
+run
+give comfits to creatures
+give thimble to dodo
+ask mouse about tale
+say dinah
+z
+z
+e
+in
+take fan
+take gloves
+drink bottle
+z
+z
+snatch
+z
+snatch
+z
+kick
+say dinah
+eat cake
+throw stick at puppy
+hide behind thistle
+hide
+hide
+s
+talk to caterpillar
+talk to caterpillar
+talk to caterpillar
+talk to caterpillar
+recite
+talk to caterpillar
+take mushroom
+eat right bit
+eat left bit
+talk to pigeon
+talk to pigeon
+talk to pigeon
+eat right bit
+eat right bit
+eat right bit
+s
+knock
+ask footman about door
+open door
+ask duchess about cat
+z
+z
+z
+take ear
+out
+z
+z
+put down pig
+talk to cat
+talk to cat
+talk to cat
+talk to cat
+ne
+e
+pinch dormouse
+z
+z
+drink tea
+drink tea
+pinch dormouse
+w
+enter tree
+eat left bit
+take key
+unlock little door with key
+open little door
+eat right bit
+in
+ask gardeners about roses
+z
+say alice
+say nonsense
+put gardeners in flowerpot
+yes
+tuck flamingo
+z
+z
+z
+calm flamingo
+hit hedgehog with flamingo
+z
+z
+say duchess
+z
+z
+z
+z
+z
+z
+follow gryphon
+talk to mock turtle
+listen
+listen
+listen
+say holiday
+listen
+join dance
+listen
+follow gryphon
+take pencil
+z
+z
+z
+z
+z
+z
+say here
+put jurors in box
+turn lizard
+say nothing
+z
+say nonsense
+say pack of cards
+full
+amusing
